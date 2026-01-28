@@ -1,8 +1,8 @@
 #!/bin/bash
 # DEPLOYMENT SCRIPT FOR HOSTINGER VPS
-# Run this on your VPS at /root/jonparras
+# Run this on your VPS at /root/janparras
 
-echo "Starting Deployment for Jon Parras Website..."
+echo "Starting Deployment for Jan Parras Website..."
 
 # 1. Pull latest changes
 echo "Pulling latest code from GitHub..."

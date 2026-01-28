@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  jonparras-web:
-    container_name: jonparras-web
+  janparras:
+    container_name: janparras
     build:
       context: .
       dockerfile: Dockerfile
