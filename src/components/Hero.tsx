@@ -22,7 +22,7 @@ export default function Hero() {
 
             <div className={styles.overlay} />
 
-            <div className={styles.content}>
+            <div className={styles.content} style={{ textAlign: 'left', marginLeft: '0', alignItems: 'flex-start' }}>
                 <h1 className={styles.heading}>
                     Transforma tu Vida.<br />
                     Alcanza tu Potencial.<br />
