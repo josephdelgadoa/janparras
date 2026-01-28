@@ -30,7 +30,7 @@ export default function ConferencesSection() {
                 <div className={styles.header}>
                     <h2 className={styles.title}>Próximos Eventos</h2>
                     <p className={styles.subtitle}>
-                        Acompaña a Jon Parras en vivo y experimenta la energía de la transformación.
+                        Acompaña a Jan Parras en vivo y experimenta la energía de la transformación.
                     </p>
                 </div>
 
@@ -54,10 +54,10 @@ export default function ConferencesSection() {
                 <div className={styles.hireSection}>
                     <h3 className={styles.hireTitle}>¿Buscas un Orador de Impacto?</h3>
                     <p className={styles.hireText}>
-                        Lleva la energía y experiencia de Jon Parras a tu próximo evento corporativo o conferencia.
+                        Lleva la energía y experiencia de Jan Parras a tu próximo evento corporativo o conferencia.
                     </p>
                     <Link href="#contact" className="btn" style={{ background: 'white', color: 'var(--foreground)' }}>
-                        Contratar a Jon
+                        Contratar a Jan
                     </Link>
                 </div>
             </div>

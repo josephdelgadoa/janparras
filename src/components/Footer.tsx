@@ -5,7 +5,7 @@ export default function Footer() {
         <footer style={{ background: '#0a0a0a', color: '#666', padding: '4rem 0', borderTop: '1px solid #222' }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '2rem' }}>
                 <div>
-                    <h4 style={{ color: 'white', marginBottom: '1rem', fontFamily: 'var(--font-serif)', fontSize: '1.2rem' }}>JON PARRAS</h4>
+                    <h4 style={{ color: 'white', marginBottom: '1rem', fontFamily: 'var(--font-serif)', fontSize: '1.2rem' }}>JAN PARRAS</h4>
                     <p style={{ maxWidth: '300px', fontSize: '0.9rem' }}>
                         Transformando vidas y liderando con propósito en la era digital.
                     </p>
@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="container" style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #222', fontSize: '0.8rem', textAlign: 'center' }}>
-                © {new Date().getFullYear()} Jon Parras. Todos los derechos reservados.
+                © {new Date().getFullYear()} Jan Parras. Todos los derechos reservados.
             </div>
         </footer>
     );

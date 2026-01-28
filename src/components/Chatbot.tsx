@@ -7,7 +7,7 @@ import styles from "./Chatbot.module.css";
 export default function Chatbot() {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState([
-        { role: "bot", text: "¡Hola! Soy el asistente virtual de Jon Parras. ¿En qué puedo ayudarte hoy?" }
+        { role: "bot", text: "¡Hola! Soy el asistente virtual de Jan Parras. ¿En qué puedo ayudarte hoy?" }
     ]);
     const [input, setInput] = useState("");
 
@@ -31,7 +31,7 @@ export default function Chatbot() {
             {isOpen && (
                 <div className={styles.chatWindow}>
                     <div className={styles.header}>
-                        <span className={styles.headerTitle}>Asistente Jon Parras</span>
+                        <span className={styles.headerTitle}>Asistente Jan Parras</span>
                         <button onClick={() => setIsOpen(false)} className={styles.closeButton}>
                             <X size={20} />
                         </button>

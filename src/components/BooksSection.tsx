@@ -30,7 +30,7 @@ export default function BooksSection() {
                         <span className={styles.bookMeta}>Bestseller Internacional</span>
                         <h3 className={styles.bookTitle}>El Código del Liderazgo 2026</h3>
                         <p className={styles.bookSynopsis}>
-                            En este libro revelador, Jon Parras desglosa los principios fundamentales que
+                            En este libro revelador, Jan Parras desglosa los principios fundamentales que
                             le permitieron transformar su vida después del cáncer y construir un imperio
                             global. Una guía práctica para aquellos que no se conforman con menos que la excelencia.
                         </p>

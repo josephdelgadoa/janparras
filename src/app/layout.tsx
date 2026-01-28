@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Jon Parras | El Tony Robbins Peruano",
-  description: "Transforma tu vida y alcanza tu potencial con Jon Parras. Liderazgo, marketing multinivel y crecimiento personal.",
+  title: "Jan Parras | El Tony Robbins Peruano",
+  description: "Transforma tu vida y alcanza tu potencial con Jan Parras. Liderazgo, marketing multinivel y crecimiento personal.",
 };
 
 import Footer from "@/components/Footer";

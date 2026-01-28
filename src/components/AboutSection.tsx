@@ -8,7 +8,7 @@ export default function AboutSection() {
             <div className="container">
                 <div className={styles.grid}>
                     <div className={styles.content}>
-                        <span className={styles.subtitle}>Sobre Jon Parras</span>
+                        <span className={styles.subtitle}>Sobre Jan Parras</span>
                         <h2 className={styles.title}>De la Adversidad a la Cima del Éxito</h2>
 
                         <p className={styles.text}>
@@ -39,7 +39,7 @@ export default function AboutSection() {
                         {/* Placeholder for Jon's photo */}
                         <Image
                             src="/jon-parras-about.jpg"
-                            alt="Jon Parras Speaking"
+                            alt="Jan Parras Speaking"
                             fill
                             className={styles.image}
                             style={{ objectFit: 'cover' }}

@@ -31,7 +31,7 @@ export default function Navbar() {
         <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
             <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
-                    Jon Parras
+                    Jan Parras
                 </Link>
 
                 {/* Desktop Menu */}

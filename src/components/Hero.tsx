@@ -13,7 +13,7 @@ export default function Hero() {
             <div className={styles.videoBackground}>
                 <Image
                     src="/hero-bg.jpg"
-                    alt="Jon Parras Hero Background"
+                    alt="Jan Parras Hero Background"
                     fill
                     priority
                     style={{ objectFit: 'cover' }}
@@ -30,7 +30,7 @@ export default function Hero() {
                 </h1>
 
                 <p className={styles.subheading}>
-                    Descubre el poder que reside en ti con Jon Parras.
+                    Descubre el poder que reside en ti con Jan Parras.
                     Estrategias de vida y negocios para el 2026.
                 </p>
 
