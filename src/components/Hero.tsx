@@ -12,7 +12,7 @@ export default function Hero() {
             {/* Background Image provided by user */}
             <div className={styles.videoBackground}>
                 <Image
-                    src="/hero-bg.jpg"
+                    src="/hero-bg-jan.jpg"
                     alt="Jan Parras Hero Background"
                     fill
                     priority
