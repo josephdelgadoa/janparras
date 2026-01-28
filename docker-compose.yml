@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jonparras-web:
+    container_name: jonparras-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8007:3000"
+    environment:
+      - NODE_ENV=production
