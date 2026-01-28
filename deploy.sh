@@ -10,7 +10,7 @@ git pull origin main
 
 # 2. Build and Start Docker Containers
 echo "Building and starting Docker container on Port 8007..."
-docker-compose up -d --build
+docker compose up -d --build
 
 # 3. Clean up unused images
 docker image prune -f
