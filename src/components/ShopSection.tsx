@@ -55,7 +55,7 @@ export default function ShopSection() {
                 </div>
 
                 <div style={{ textAlign: 'center' }}>
-                    <Link href="https://www.4life.com/" target="_blank" className={styles.shopLink}>
+                    <Link href="https://peru.4life.com/10731490/shop" target="_blank" className={styles.shopLink}>
                         Visitar Tienda Oficial 4Life &rarr;
                     </Link>
                 </div>
