@@ -52,13 +52,15 @@ export default function ConferencesSection() {
                 </div>
 
                 <div className={styles.hireSection}>
-                    <h3 className={styles.hireTitle}>¿Buscas un Orador de Impacto?</h3>
-                    <p className={styles.hireText}>
-                        Lleva la energía y experiencia de Jan Parras a tu próximo evento corporativo o conferencia.
-                    </p>
-                    <Link href="#contact" className="btn" style={{ background: 'white', color: 'var(--foreground)' }}>
-                        Contratar a Jan
-                    </Link>
+                    <div className={styles.hireContent}>
+                        <h3 className={styles.hireTitle}>¿Buscas un Orador de Impacto?</h3>
+                        <p className={styles.hireText}>
+                            Lleva la energía y experiencia de Jan Parras a tu próximo evento corporativo o conferencia.
+                        </p>
+                        <Link href="#contact" className={styles.hireButton}>
+                            Contratar a Jan
+                        </Link>
+                    </div>
                 </div>
             </div>
         </section>

@@ -6,17 +6,20 @@ const products = [
     {
         name: "Transfer Factor Plus",
         description: "El máximo soporte para tu sistema inmunitario.",
-        image: "/product-tf-plus.jpg"
+        image: "/product-tf-plus.jpg",
+        link: "https://peru.4life.com/10731490/product/transfer-factor-plus-tri-factor/89"
     },
     {
         name: "RioVida",
         description: "Antioxidantes líquidos para vitalidad y bienestar.",
-        image: "/product-riovida.jpg"
+        image: "/product-riovida.jpg",
+        link: "https://peru.4life.com/10731490/product/4life-transfer-factor-riovida-tri-factor-form/4470"
     },
     {
         name: "Energy Go Stix",
         description: "Energía natural para mantenerte enfocado todo el día.",
-        image: "/product-energy.jpg"
+        image: "/product-energy.jpg",
+        link: "https://peru.4life.com/10731490/product/energy-go-stix/16"
     }
 ];
 
@@ -46,7 +49,7 @@ export default function ShopSection() {
                             <div className={styles.productDetails}>
                                 <h3 className={styles.productName}>{product.name}</h3>
                                 <p className={styles.productDescription}>{product.description}</p>
-                                <Link href="#" className="btn btn-primary" style={{ fontSize: '0.9rem', padding: '0.5rem 1.5rem' }}>
+                                <Link href={product.link} target="_blank" className="btn btn-primary" style={{ fontSize: '0.9rem', padding: '0.5rem 1.5rem' }}>
                                     Ver Detalle
                                 </Link>
                             </div>

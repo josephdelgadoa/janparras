@@ -65,26 +65,105 @@
     margin-bottom: 1.5rem;
 }
 
+/* Hire Section Revamp */
 .hireSection {
-    background: var(--foreground);
-    color: var(--background);
-    padding: 4rem;
-    border-radius: 20px;
+    position: relative;
+    padding: 6rem 2rem;
+    border-radius: 24px;
+    margin-top: 6rem;
+    overflow: hidden;
     text-align: center;
-    margin-top: 4rem;
+    color: white;
+    /* Background Image with Overlay */
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('/jan-parras-speaking.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Parallax effect */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Glassmorphism Card Effect inside section */
+.hireContent {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 3rem;
+    border-radius: 20px;
+    max-width: 800px;
+    animation: fadeInUp 1s ease-out;
 }
 
 .hireTitle {
     color: white;
     font-family: var(--font-serif);
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hireText {
-    color: #ccc;
-    margin-bottom: 2rem;
-    max-width: 600px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.hireButton {
+    background: white;
+    color: var(--foreground);
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hireButton:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background: var(--primary);
+    color: white;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hireSection {
+        padding: 4rem 1.5rem;
+    }
+
+    .hireTitle {
+        font-size: 2rem;
+    }
+
+    .hireContent {
+        padding: 2rem;
+    }
 }
