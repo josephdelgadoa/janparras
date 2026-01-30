@@ -20,10 +20,11 @@ export default function BooksSection() {
                     <div className={styles.bookCover}>
                         {/* Placeholder for Book Cover */}
                         <Image
-                            src="/book-cover-placeholder.jpg"
+                            src="/book-cover-final.jpeg"
                             alt="Portada del Libro"
                             fill
-                            style={{ objectFit: 'contain' }} // Contain to show full cover
+                            className={styles.bookImage} // Added for hover effect
+                            style={{ objectFit: 'cover' }} // Contain to show full cover
                         />
                     </div>
                     <div className={styles.bookInfo}>

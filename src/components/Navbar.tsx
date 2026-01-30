@@ -7,7 +7,7 @@ import styles from "./Navbar.module.css";
 
 const navItems = [
     { name: "Inicio", href: "#hero" },
-    { name: "Sobre Jon", href: "#about" },
+    { name: "Sobre Jan", href: "#about" },
     { name: "Conferencias", href: "#conferences" },
     { name: "Libros", href: "#books" },
     { name: "Oportunidad", href: "#opportunity" },

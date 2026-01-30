@@ -38,8 +38,8 @@ export default function AboutSection() {
                     <div className={styles.imageContainer}>
                         {/* Placeholder for Jon's photo */}
                         <img
-                            src="/jan-parras-about-real.jpg"
-                            alt="Jan Parras - De la Adversidad a la Cima"
+                            src="/jan-parras-speaking.jpg"
+                            alt="Jan Parras Speaking"
                             className={styles.image}
                             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                         />

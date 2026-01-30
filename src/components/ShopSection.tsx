@@ -40,7 +40,7 @@ export default function ShopSection() {
                                     src={product.image}
                                     alt={product.name}
                                     fill
-                                    style={{ objectFit: 'contain', padding: '1rem' }}
+                                    style={{ objectFit: 'cover' }}
                                 />
                             </div>
                             <div className={styles.productDetails}>

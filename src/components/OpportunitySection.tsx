@@ -37,21 +37,14 @@ export default function OpportunitySection() {
 
                     <div className={styles.teamImageContainer}>
                         <Image
-                            src="/team-meeting.jpg" // Placeholder
+                            src="/jan-parras-team-02.jpeg"
                             alt="Reunión del equipo 4Life"
                             fill
+                            className={styles.opportunityImage} // Added for hover effect
                             style={{ objectFit: 'cover' }}
                         />
 
-                        <div className={styles.overlayCard}>
-                            <div className={styles.testimonialAvatar}>
-                                <Image src="/avatar-testimonial.jpg" alt="Member" fill style={{ objectFit: 'cover' }} />
-                            </div>
-                            <p className={styles.testimonialText}>
-                                "La mentoría de Jon cambió mi vida. Pasé de estar endeudado a ser libre financieramente en 2 años."
-                            </p>
-                            <span className={styles.testimonialAuthor}>- María G., Diamante Presidencial</span>
-                        </div>
+
                     </div>
                 </div>
             </div>

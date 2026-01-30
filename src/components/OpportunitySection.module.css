@@ -58,6 +58,14 @@
     overflow: hidden;
 }
 
+.opportunityImage {
+    transition: transform 0.5s ease;
+}
+
+.teamImageContainer:hover .opportunityImage {
+    transform: scale(1.03);
+}
+
 .overlayCard {
     position: absolute;
     bottom: 2rem;
